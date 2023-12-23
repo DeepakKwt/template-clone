@@ -1,0 +1,114 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    font-family: 'Roboto', sans-serif;
+}
+
+.navbar {
+    position: relative;
+    width: 100%;
+    height: 60px;
+    color: #746d6d;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar h1 {
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.navbar h1 span {
+    font-size: 30px;
+    color: green;
+}
+
+.navbar ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    list-style: none;
+    margin-left: 60px;
+}
+
+.navbar ul li {
+    margin: 0 10px;
+}
+
+.navbar ul li a {
+    color: #746d6d;
+    text-decoration: none;
+}
+
+.navbar ul li a:hover {
+    color: green;
+}
+
+.navbar .nav4 h3 {
+    font-size: 15px;
+}
+
+.navbar .nav4 button {
+    border-radius: 10px;
+    padding: 3px;
+    border: 2px solid green;
+    color: green;
+    cursor: pointer;
+}
+
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-image: url(https://media.istockphoto.com/id/1390897176/vector/stipple-illustration-of-cumulus-clouds.jpg?s=612x612&w=0&k=20&c=KcIv7H_C_1YXYQikekPS3pqh-SKDUQjLFBM9gvX59SQ=);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.hero .txt {
+    width: 400px;
+    height: 500px;
+    margin-top: 50px;
+    position: relative;
+    left: 10%;
+}
+
+.hero .txt h1 {
+    font-size: 70px;
+}
+
+.hero .txt h1 span {
+    color: green;
+}
+
+.bot {
+    margin-bottom: 40px;
+}
+
+.hero .txt p {
+    font-size: 20px;
+    margin-bottom: 30px;
+    letter-spacing: 1px;
+    word-spacing: 3px;
+}
+
+.hero .txt button {
+    font-size: 20px;
+    padding: 10px;
+    border: none;
+    background-color: #165716;
+    color: white;
+}
+
+.hero .pic img {
+    width: 80%;
+    height: 80vh;
+}
